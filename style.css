@@ -1,0 +1,25 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 0px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.bandeira {
+  width: 300px;
+  height: 210px;
+  background-image: linear-gradient(-224deg, #00923F 31%, transparent 30%), linear-gradient(-44deg, #6699FE 58%, transparent 30%);
+  border: solid 5px #ddd;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px #333;
+}
+
+.estrela {
+  color: #FFFF00;
+  font-size: 68px;
+  position: absolute;
+  right: 25px;
+  bottom: -37px;
+}
